@@ -13,6 +13,7 @@
 		C64EFFA8232207DB00ABFF79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C64EFFA7232207DB00ABFF79 /* main.m */; };
 		C64EFFB2232207DB00ABFF79 /* UploadToGithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64EFFB1232207DB00ABFF79 /* UploadToGithubTests.m */; };
 		C64EFFBD232207DB00ABFF79 /* UploadToGithubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64EFFBC232207DB00ABFF79 /* UploadToGithubUITests.m */; };
+		C64EFFCC232207E900ABFF79 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64EFFCB232207E900ABFF79 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		C64EFFB8232207DB00ABFF79 /* UploadToGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadToGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64EFFBC232207DB00ABFF79 /* UploadToGithubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadToGithubUITests.m; sourceTree = "<group>"; };
 		C64EFFBE232207DB00ABFF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64EFFCA232207E900ABFF79 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C64EFFCB232207E900ABFF79 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			children = (
 				C64EFF9E232207D900ABFF79 /* AppDelegate.h */,
 				C64EFF9F232207D900ABFF79 /* AppDelegate.m */,
+				C64EFFCA232207E900ABFF79 /* HomeViewController.h */,
+				C64EFFCB232207E900ABFF79 /* HomeViewController.m */,
 				C64EFFA1232207DB00ABFF79 /* Assets.xcassets */,
 				C64EFFA3232207DB00ABFF79 /* LaunchScreen.storyboard */,
 				C64EFFA6232207DB00ABFF79 /* Info.plist */,
@@ -255,6 +260,7 @@
 			files = (
 				C64EFFA8232207DB00ABFF79 /* main.m in Sources */,
 				C64EFFA0232207D900ABFF79 /* AppDelegate.m in Sources */,
+				C64EFFCC232207E900ABFF79 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
